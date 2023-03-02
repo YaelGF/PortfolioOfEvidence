@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Calculator Flutter",
+        "category": "Multiplatafor app: Flutter",
+        "link-Repositori": "https://github.com/YaelGF/Calculator",
+        "link-Web": "https://github.com/YaelGF/Calculator",
+        "img":"/assets/projects/Calculador.png"
+    },{
+        "id": 2,
+        "name": "Dashboard Sigsa",
+        "category": "Web aplication: C#",
+        "link-Repositori": "https://yaelgf.github.io/PortfolioOfEvidence/",
+        "link-Web": "https://yaelgf.github.io/PortfolioOfEvidence/",
+        "img":"/assets/projects/dashboard.png"
+    },
+    {
+        "id": 3,
+        "name": "Dashboard Sigsa 2",
+        "category": "Web aplication: C#",
+        "link-Repositori": "https://yaelgf.github.io/PortfolioOfEvidence/",
+        "link-Web": "https://yaelgf.github.io/PortfolioOfEvidence/",
+        "img":"/assets/projects/dashboard2.png"
+    },
+    {
+        "id": 4,
+        "name": "Google Books",
+        "category": "Web aplication: Javascript",
+        "link-Repositori": "https://github.com/YaelGF/GoogleBooks",
+        "link-Web": "https://yaelgf.github.io/GoogleBooks/",
+        "img":"/assets/projects/googleBook.png"
+    },
+    {
+        "id": 5,
+        "name": "Pokedex",
+        "category": "Web aplication: Javascript",
+        "link-Repositori": "https://github.com/YaelGF/Pokedex",
+        "link-Web": "https://yaelgf.github.io/Pokedex/",
+        "img":"/assets/projects/pokedex.png"
+    },{
+        "id": 6,
+        "name": "ServiTec",
+        "category": "Web aplication: Php",
+        "link-Repositori": "#",
+        "link-Web":"#",
+        "img":"/assets/projects/servitec.png"
+    },{
+        "id": 7,
+        "name": "Store",
+        "category": "Web aplication: Php",
+        "link-Repositori": "https://github.com/YaelGF/Crud-Php-Store",
+        "link-Web": "https://github.com/YaelGF/Calculator",
+        "img":"/assets/projects/Tienda.png"
+    },{
+        "id": 8,
+        "name": "Zodiacal",
+        "category": "Native aplication: Kotlin",
+        "link-Repositori": "https://github.com/YaelGF/Zodiacal-Date-Picker",
+        "link-Web": "",
+        "img":"/assets/projects/zodiacal.png"
+    }
+]
