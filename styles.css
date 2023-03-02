@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-family: cursive;
+  font-family: "Roboto", sans-serif;
   background: var(--amarillo);
   color: var(--blue);
 }
@@ -194,7 +194,7 @@ section {
 .about__skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
 }
 
 .skill__title {
@@ -216,6 +216,10 @@ section {
 .skill__item img {
   max-height: 100px;
   max-width: 100px;
+  transition: all 0.3s;
+}
+.skill__item img:hover{
+  transform: scale(1.5);
 }
 .fa-node{
   color: #3C873A;
@@ -449,18 +453,22 @@ section {
 
 .fa-envelope:hover {
   transition: all 0.3s;
+  transform: scale(1.2);
   color: var(--grey);
 }
 .fa-github:hover {
   transition: all 0.3s;
+  transform: scale(1.2);
   color: var(--grey);
 }
 .fa-twitter:hover {
   transition: all 0.3s;
+  transform: scale(1.2);
   color: var(--grey);
 }
 .fa-linkedin-in:hover {
   transition: all 0.3s;
+  transform: scale(1.2);
   color: var(--grey);
 }
 .active a {
