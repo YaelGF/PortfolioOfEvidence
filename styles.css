@@ -7,14 +7,20 @@
 }
 :root{
   --white: #ffffff;
+  --white_grey: #f5f5f5;
+  --black:#000000;
   --grey: #414141;
   --red: 	#d62d20;
   --amarillo: #E8D5C4;
   --blue:#3A98B9;
-  --orange:#e34c26;
-  --green:#008744;
-  --blueReact: #61DBFB;
   --beige: #bbbbbb;
+  --linkedinColor: #0e76a8;
+  --aColor: #f5f5f5;
+  --twiterColor: #00acee;
+  --githubColor: var(--black);
+  --gmailColor: #fd0000;
+  --backgHome: #8e8e8e;
+  --background: #eee;
 }
 
 a {
@@ -39,7 +45,7 @@ body {
 section {
   padding: 90px 0;
   text-align: center;
-  background: #eee;
+  background: var(--background);
 }
 
 .container {
@@ -93,7 +99,7 @@ section {
 }
 
 .navbar__link a {
-  color: #000000;
+  color: var(--black);
   transition: color 0.3s;
 }
 
@@ -120,7 +126,7 @@ section {
 }
 
 .home__background {
-  background-color: #8e8e8e;
+  background-color: var(--backgHome);
   background-image: url(./assets/bgcode.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -147,7 +153,7 @@ section {
 .home__title--primary,
 .home__title--secondary {
   font-size: 45px;
-  color: #f5f5f5;
+  color: var(--white_grey);
   text-shadow: 1px 1px black;
 }
 
@@ -164,7 +170,11 @@ section {
   text-align: start;
   margin-bottom: 20px;
 }
-
+.section__subtitle_tecnology{
+  color: var(--blue);
+  text-align: start;
+  margin-bottom: 20px;
+}
 .about__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -221,30 +231,10 @@ section {
 .skill__item img:hover{
   transform: scale(1.5);
 }
-.fa-node{
-  color: #3C873A;
-}
 
 .fa-html5{
   color: #e34c26;
 }
-
-.fa-css3-alt{
-  color: #264de4;
-}
-
-.fa-js{
-  color:#f0db4f ;
-}
-
-.fa-git-alt{
-  color: #f34f29;
-}
-
-.fa-react{
-  color: var(--blueReact);
-}
-
 
 .skill__name {
   font-size: 16px;
@@ -265,11 +255,6 @@ section {
   transition: border 0.3s;
 }
 
-/* .services__item:hover {
-  transition: border 0.3s;
-  border-bottom: 5px solid var(--blue);
-} */
-
 .services__item:hover i {
   transition: all 0.3s;
   color: var(--grey);
@@ -282,7 +267,7 @@ section {
 }
 
 .fa-mobile-alt{
-  color: black;
+  color: var(--black);
 }
 
 .fa-pencil-ruler{
@@ -321,7 +306,7 @@ section {
 }
 
 .portfolio__item {
-  background: white;
+  background: var(--white);
   position: relative;
   object-fit: cover;
   overflow: hidden;
@@ -384,7 +369,7 @@ section {
 
 .button {
   background: #191919;
-  color: #f5f5f5;
+  color: var(--white_grey);
   padding: 5px 10px;
   display: inline-block;
   margin: auto;
@@ -412,10 +397,10 @@ section {
 
 .button--cta:hover {
   background: var(--grey);
-  color: white;
+  color: var(--white);
 }
 .button .fa-github:before {
-  color: white;
+  color: var(--white);
 }
 
 .contact__grid {
@@ -431,19 +416,19 @@ section {
 }
 
 .fa-envelope{
-  color: #fd0000;
+  color: var(--gmailColor);
 }
 
 .fa-github{
-  color: black;
+  color: var(--githubColor);
 }
 
 .fa-twitter{
-  color: #00acee;
+  color: var(--twitterColor);
 }
 
 .fa-linkedin-in{
-  color:#0e76a8  ;
+  color:var(--linkedinColor)  ;
 }
 
 .contact__item i {
@@ -472,7 +457,7 @@ section {
   color: var(--grey);
 }
 .active a {
-  color: #f5f5f5;
+  color: var(--aColor);
 }
 
 .footer {
