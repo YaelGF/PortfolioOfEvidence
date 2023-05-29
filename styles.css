@@ -171,7 +171,8 @@ section {
   margin-bottom: 20px;
 }
 .section__subtitle_tecnology{
-  color: var(--blue);
+  color: var(--black);
+  padding-top: 10px;
   text-align: start;
   margin-bottom: 20px;
 }
