@@ -149,7 +149,6 @@ section {
   text-shadow: 1px 1px black;
   color: var(--blue);
 }
-
 .home__title--primary,
 .home__title--secondary {
   font-size: 45px;
