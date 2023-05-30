@@ -425,7 +425,7 @@ section {
 }
 
 .fa-twitter{
-  color: var(--twitterColor);
+  color: var(--twiterColor);
 }
 
 .fa-linkedin-in{
@@ -437,26 +437,12 @@ section {
   margin-bottom: 10px;
 }
 
-.fa-envelope:hover {
+.contact__grid i:hover{
   transition: all 0.3s;
   transform: scale(1.2);
-  color: var(--grey);
+  color: var(--grey) !important;
 }
-.fa-github:hover {
-  transition: all 0.3s;
-  transform: scale(1.2);
-  color: var(--grey);
-}
-.fa-twitter:hover {
-  transition: all 0.3s;
-  transform: scale(1.2);
-  color: var(--grey);
-}
-.fa-linkedin-in:hover {
-  transition: all 0.3s;
-  transform: scale(1.2);
-  color: var(--grey);
-}
+
 .active a {
   color: var(--aColor);
 }
