@@ -109,7 +109,7 @@
 @media (max-width: 767px) {
 
   .home__background {
-    background-image: url(./assets/bgcode.jpg);
+    background-image: url(./assets/pruebas/main/bgcode.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
