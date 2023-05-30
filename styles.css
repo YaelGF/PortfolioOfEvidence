@@ -127,7 +127,7 @@ section {
 
 .home__background {
   background-color: var(--backgHome);
-  background-image: url(./assets/bgcode.jpg);
+  background-image: url(./assets/main/bgcode.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
